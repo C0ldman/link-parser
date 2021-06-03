@@ -1,0 +1,26 @@
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+
+/* .abc-header {
+  display: flex;
+  justify-content: center;
+} */
+
+.abc-col {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: #bbeffd;
+    border: 1px solid #61dafb;
+}
+.abc-media {
+    border: 1px solid lightgrey;
+    padding: 20px;
+    border-radius: 0.25rem;
+}
+
+.abc-with-margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABC query parameters</title>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900"
+            rel="stylesheet"
+    />
+    <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+    />
+    <link href="./src/styles.css" rel="stylesheet" />
+    <script src="src/index.js"></script>
+</head>
+
+<body>
+<div class="app">
+    <div class="abc-header d-flex justify-content-center py-2">
+        <a
+                type="button"
+                class="btn btn-primary mr-auto"
+                href="https://subdomain.example.com/sign-up"
+        >Sign Up</a
+        >
+        <a class="btn btn-link" href="https://example.com/some-link">Link</a>
+        <a class="btn btn-link" href="https://example.com/some-other-link"
+        >Link</a
+        >
+    </div>
+    <h1 class="abc-with-margin">Quis autem vel eum iure</h1>
+    <h2 class="abc-with-margin">
+        Temporibus autem quibusdam et aut officiis debitis aut rerum
+        necessitatibus saepe eveniet, ut et voluptates repudiandae sint et
+        molestiae non recusandae
+    </h2>
+    <p class="abc-with-margin">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+    </p>
+
+    <a
+            type="button"
+            class="btn btn-success btn-lg btn-block abc-with-margin"
+            href="https://subdomain.example.com/?date=10-12-2021"
+    >Click me!</a
+    >
+    <a
+            type="button"
+            class="btn btn-info btn-lg btn-block abc-with-margin"
+            href="https://subdomain.example.com/?from=10-12-2021&to=13-12-2021"
+    >Click me!</a
+    >
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col abc-col">1 of 2</div>
+            <div class="col abc-col">2 of 2</div>
+        </div>
+        <div class="row">
+            <div class="col abc-col">1 of 3</div>
+            <div class="col abc-col">2 of 3</div>
+            <div class="col abc-col">3 of 3</div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="justify-content-md-center row abc-with-margin">
+            <div class="col-lg-2 col abc-col">1 of 3</div>
+            <div class="col-md-auto abc-col abc-with-margin">
+                Variable width content
+            </div>
+            <div class="col-lg-2 col abc-col">3 of 3</div>
+        </div>
+        <div class="row">
+            <div class="col abc-col">1 of 3</div>
+            <div class="col-md-auto abc-col abc-with-margin">
+                Variable width content
+            </div>
+            <div class="col-lg-2 col abc-col">3 of 3</div>
+        </div>
+    </div>
+    <a
+            type="button"
+            class="btn btn-warning btn-lg abc-with-margin"
+            href="https://example.com/?from=10-12-2021&to=13-12-2021"
+    >Click me!</a
+    >
+    <a
+            type="button"
+            class="btn btn-warning btn-lg abc-with-margin"
+            href="https://www.google.com/"
+    >Click me!</a
+    >
+    <a
+            type="button"
+            class="btn btn-warning btn-lg abc-with-margin"
+            href="https://www.subdomain.example.com/"
+    >Click me!</a
+    >
+    <a
+            type="button"
+            class="btn btn-warning btn-lg abc-with-margin"
+            href="http://subdomain.example.com/?a=45"
+    >Click me!</a
+    >
+    <p class="abc-with-margin">
+        At vero eos et accusamus et iusto odio dignissimos ducimus, qui
+        blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores
+        et quas molestias excepturi sint, obcaecati cupiditate non provident,
+        similique sunt in culpa, qui officia deserunt mollitia animi, id est
+        laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+        distinctio. Nam libero tempore, cum soluta nobis est eligendi optio,
+        cumque nihil impedit, quo minus id, quod maxime placeat, facere
+        possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        Temporibus autem quibusdam et aut officiis debitis aut rerum
+        necessitatibus saepe eveniet, ut et voluptates repudiandae sint et
+        molestiae non recusandae.
+    </p>
+    <a class="btn btn-link" href="https://subdomain.example.com/aaaaa"
+    >Link</a
+    >
+
+    <a
+            type="button"
+            class="btn btn-danger btn-sm abc-with-margin"
+            href="http://subsubdomain.subdomain.example.com/anything/else/"
+    >Click me!</a
+    >
+    <a
+            type="button"
+            class="btn btn-danger btn-sm abc-with-margin"
+            href="http://subsubdomain.subdomain.example.com/"
+    >Click me!</a
+    >
+    <a
+            type="button"
+            class="btn btn-danger btn-sm abc-with-margin"
+            href="https://subsubdomain.subdomain.example.com/"
+    >Click me!</a
+    >
+    <div class="card abc-with-margin" style="width: 18rem;">
+        <img
+                class="card-img-top"
+                src="https://source.unsplash.com/random/400x400"
+        />
+        <div class="card-body">
+            <div class="card-title h5">Card Title</div>
+            <p class="card-text">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+            </p>
+            <button type="button" class="btn btn-primary">Go somewhere</button>
+        </div>
+    </div>
+
+    <a
+            type="button"
+            class="btn btn-outline-primary abc-with-margin"
+            href="https://subsubdomain.subdomain.example.com/some/cool/stuff"
+    >Click me!</a
+    >
+    <a
+            type="button"
+            class="btn btn-outline-primary abc-with-margin"
+            href="https://subdomain.example.com/some/cool/stuff"
+    >Click me!</a
+    >
+    <a
+            type="button"
+            class="btn btn-outline-primary abc-with-margin"
+            href="https://subdomain.example.com/some/cool/stuff?a=34&b=65&c=blah"
+    >Click me!</a
+    >
+    <p class="abc-with-margin">
+        Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+        voluptatibus maiores alias consequatur aut perferendis doloribus
+        asperiores repellat.
+    </p>
+
+    <a
+            type="button"
+            class="btn btn-outline-secondary abc-with-margin"
+            href="https://getbootstrap.com/docs/4.6/components/buttons/"
+    >Click me!</a
+    >
+    <a
+            type="button"
+            class="btn btn-outline-secondary abc-with-margin"
+            href="https://subdomain.com/"
+    >Click me!</a
+    >
+    <p class="abc-with-margin">
+        Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab
+        illo inventore veritatis et quasi architecto beatae vitae dicta sunt,
+        explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut
+        odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione
+        voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum,
+        quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam
+        eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat
+        voluptatem.
+    </p>
+    <div class="abc-showcase-buttons abc-with-margin">
+        <button type="button" class="btn btn-primary m-1">
+            Primary</button
+        ><button type="button" class="btn btn-secondary m-1">
+        Secondary</button
+    ><button type="button" class="btn btn-success m-1">
+        Success</button
+    ><button type="button" class="btn btn-warning m-1">
+        Warning</button
+    ><button type="button" class="btn btn-danger m-1">
+        Danger</button
+    ><button type="button" class="btn btn-info m-1">Info</button
+    ><button type="button" class="btn btn-light m-1">Light</button
+    ><button type="button" class="btn btn-dark m-1">Dark</button
+    ><button type="button" class="btn btn-link m-1">Link</button>
+    </div>
+    <div class="media abc-media abc-with-margin">
+        <img
+                width="150"
+                height="150"
+                class="mr-3"
+                src="https://source.unsplash.com/random/300x300"
+                alt="Generic placeholder"
+        />
+        <div class="media-body">
+            <h5>Media Heading</h5>
+            <p>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
+                in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </p>
+        </div>
+    </div>
+    <p class="abc-with-margin">
+        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+        autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam
+        nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo
+        voluptas nulla pariatur?
+    </p>
+    <a type="button" class="btn btn-outline-dark btn-lg mb-4" href=""
+    >Click me!</a
+    >
+    <a
+            type="button"
+            class="btn btn-outline-dark btn-lg mb-4"
+            href="https://subdomain.example.com/check-in"
+            target="_blank"
+    >Click me!</a
+    >
+    <div role="alert" class="fade alert alert-info alert-dismissible show">
+        <button type="button" class="close">
+          <span aria-hidden="true">×</span
+          ><span class="sr-only">Close alert</span></button
+        >This is a info alert with
+        <a
+                class="alert-link"
+                href="https://subdomain.example.com/?qwe=rty"
+                role="button"
+        >an example link</a
+        >. Give it a click if you like.
+    </div>
+    <div role="alert" class="fade alert alert-success alert-dismissible show">
+        <button type="button" class="close">
+          <span aria-hidden="true">×</span
+          ><span class="sr-only">Close alert</span>
+        </button>
+        <div class="alert-heading h4">Hey, nice to see you</div>
+        <p>
+            Aww yeah, you successfully read this important alert message. This
+            example text is going to run a bit longer so that you can see how
+            spacing within an alert works with this kind of content.
+        </p>
+        <hr />
+        <p class="mb-0">
+            Whenever you need to, be sure to use margin utilities to keep things
+            nice and tidy.
+        </p>
+    </div>
+    <div role="alert" class="fade alert alert-danger alert-dismissible show">
+        <button type="button" class="close">
+          <span aria-hidden="true">×</span
+          ><span class="sr-only">Close alert</span>
+        </button>
+        <div class="alert-heading h4">Oh snap! You got an error!</div>
+        <p>
+            Change this and that and try again. Duis mollis, est non commodo
+            luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            Cras mattis consectetur purus sit amet fermentum.
+        </p>
+    </div>
+    <a type="button" class="btn btn-primary abc-with-margin" href="#">
+        Click me!
+    </a>
+    <a type="button" class="btn btn-primary abc-with-margin" href="/">
+        Click me!
+    </a>
+    <a
+            type="button"
+            class="btn btn-primary abc-with-margin"
+            href="javascript:void(0);"
+    >
+        Click me!
+    </a>
+    <h2 class="abc-with-margin">
+        Some heading
+    </h2>
+    <div class="table-responsive abc-with-margin">
+        <table
+                class="table table-sm table-striped table-bordered table-borderless table-hover"
+        >
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <form class="">
+        <div class="mb-3">
+            <div class="custom-control custom-checkbox">
+                <input
+                        type="checkbox"
+                        id="custom-checkbox"
+                        class="custom-control-input"
+                /><label
+                    title=""
+                    type="checkbox"
+                    for="custom-checkbox"
+                    class="custom-control-label"
+            >Check this custom checkbox</label
+            >
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input
+                        type="checkbox"
+                        disabled=""
+                        id="disabled-custom-checkbox"
+                        class="custom-control-input"
+                /><label
+                    title=""
+                    type="checkbox"
+                    for="disabled-custom-checkbox"
+                    class="custom-control-label"
+            >disabled checkbox</label
+            >
+            </div>
+        </div>
+        <div class="mb-3">
+            <div class="custom-control custom-radio">
+                <input
+                        type="radio"
+                        id="custom-radio"
+                        class="custom-control-input"
+                /><label
+                    title=""
+                    type="checkbox"
+                    for="custom-radio"
+                    class="custom-control-label"
+            >Check this custom radio</label
+            >
+            </div>
+            <div class="custom-control custom-radio">
+                <input
+                        type="radio"
+                        disabled=""
+                        id="disabled-custom-radio"
+                        class="custom-control-input"
+                /><label
+                    title=""
+                    type="checkbox"
+                    for="disabled-custom-radio"
+                    class="custom-control-label"
+            >disabled radio</label
+            >
+            </div>
+        </div>
+    </form>
+    <div class="abc-footer">
+        <a
+                type="button"
+                class="btn btn-info btn-lg btn-block"
+                href="https://subdomains.example.com/"
+        >Click me!</a
+        >
+        <a
+                type="button"
+                class="btn btn-info btn-lg btn-block"
+                href="https://subdomain.exemple.com/"
+        >Click me!</a
+        >
+        <a
+                type="button"
+                class="btn btn-info btn-lg btn-block"
+                href="https://subdomain.example.co/"
+        >Click me!</a
+        >
+        <a
+                type="button"
+                class="btn btn-info btn-lg btn-block"
+                style="display: none;"
+                href="https://subdomain.example.com/"
+        >Click me!</a
+        >
+        <p class="my-4">Footer</p>
+    </div>
+</div>
+</body>
+</html>
