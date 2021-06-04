@@ -28,11 +28,13 @@ function getParameters(incomeParams) {
 }
 
 function updateLink(element, params) {
-    let index = element.href.indexOf('?');
-    let newLink;
-    index > 0 ? newLink = element.href + '&' : newLink = element.href + '?';
+
+    let hasQueryParams = element.href.includes("?");
+    let newLink  = hasQueryParams ? element.href + "&" : element.href + "?";
+
     for (let item of params) {
         newLink = `${newLink}${item[0]}=${item[1]}&`
     }
+
     element.setAttribute('href', newLink.slice(0, -1))
 }
